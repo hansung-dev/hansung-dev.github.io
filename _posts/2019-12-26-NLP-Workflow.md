@@ -43,6 +43,7 @@ layout: nil
                   * 뛰어쓰기 교정
                2. 구글 센텐스피스 (BPE 기본원리)
 
+
 ## 3. 카운트 기반의 단어 표현(Count based word Representation)
 1. Bag of Words(BoW)
 2. N-gram 언어 모델(N-gram Language Model) 
