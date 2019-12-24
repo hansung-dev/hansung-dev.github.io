@@ -18,8 +18,8 @@ layout: nil
 
 1. 순수 텍스트 파일로 변환
    * 토큰화(Tokenization)
-        * 단어 토큰화(Word Tokenization)
-        * 문장 토큰화(Sentence Tokenization)
+       * 단어 토큰화(Word Tokenization)
+       * 문장 토큰화(Sentence Tokenization)
    * 정제(Cleaning), 정규화(Normalization)
    * 어간 추출(Stemming), 표제어 추출(Lemmatization)
    * 불용어(Stopword)
