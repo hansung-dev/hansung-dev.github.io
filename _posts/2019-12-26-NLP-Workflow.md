@@ -30,17 +30,17 @@ layout: nil
 ## 2. 한국어 전처리
 * * *
 ### 1. 순수 텍스트 파일로 변환
-* 토큰화(Tokenization)
-    * 단어 토큰화(Word Tokenization)
-    * 문장 토큰화(Sentence Tokenization)
-* 정제(Cleaning), 정규화(Normalization)
-* 어간 추출(Stemming), 표제어 추출(Lemmatization)
-* 불용어(Stopword)
-* 정규 표현식(Regular Expression)
-* ~~정수 인코딩(Integer Encoding)~~
-* ~~원-핫 인코딩(One-hot encoding)~~
-* 단어 분리(Subword Segmentation)
-* 데이터의 분리(Splitting Data)
+1. 토큰화(Tokenization)
+    1. 단어 토큰화(Word Tokenization)
+    2. 문장 토큰화(Sentence Tokenization)
+2. 정제(Cleaning), 정규화(Normalization)
+3. 어간 추출(Stemming), 표제어 추출(Lemmatization)
+4. 불용어(Stopword)
+5. 정규 표현식(Regular Expression)
+6. ~~정수 인코딩(Integer Encoding)~~
+7. ~~원-핫 인코딩(One-hot encoding)~~
+8. 단어 분리(Subword Segmentation)
+9. 데이터의 분리(Splitting Data)
 
 ### 2. 형태소 분석 방법
 1. 지도학습
