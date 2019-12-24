@@ -10,6 +10,14 @@ layout: nil
 
 
 1. 한국어 전처리
+    1. 순수 텍스트 파일로 변환
+        1. 특수문자 제거
+        2. 공백 제거
+        3. 이메일 주소 제거
+        4. 웹 페이지 주소 제거
+    2. 형태소 분석 방법
+        1. 지도 학습
+        2. 비지도 학습
 2. 카운트 기반의 단어 표현(Count based word Representation)
     1. Bag of Words(BoW)
     2. N-gram 언어 모델(N-gram Language Model) 
