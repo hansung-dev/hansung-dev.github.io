@@ -14,4 +14,5 @@ layout: nil
 * https://www.kaggle.com/c/spooky-author-identification
 
 ## 참고
+* 내용입력
 * https://github.com/corazzon/KaggleStruggle/blob/master/word2vec-nlp-tutorial/tutorial-part-1.ipynb
