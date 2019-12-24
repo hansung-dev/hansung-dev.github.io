@@ -51,7 +51,7 @@ layout: nil
 2. N-gram 언어 모델(N-gram Language Model) 
 
 ## 4. 임베딩
-
+* * * 
 ### 1. 단어 수준 임베딩
 1. NPLM
 2. *Word2Vec*
@@ -69,6 +69,7 @@ layout: nil
 6. BERT
 
 ## 5. 임베딩 파인 튜닝
+* * *
 1. 내용입력
 2. 내용입력
 3. 내용입력
