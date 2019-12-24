@@ -1,0 +1,27 @@
+---
+category: NLP
+path: '/stuff/:id'
+title: 'readme-nlp'
+type: 'NLP'
+
+layout: nil
+---
+# NPLM
+* Neural Probabilistic Language Model 
+
+## 단어 수준 임베딩
+1. Word2Vec
+2. FastText
+3. 잠재 의미 분석(LSA)
+4. GloVe 
+5. Swivel
+
+## 문장 수준 임베딩
+1. LSA
+2. Doc2Vec
+3. 잠재 디리클레 할당(LDA)
+4. ELMo
+5. BERT
+
+
+
