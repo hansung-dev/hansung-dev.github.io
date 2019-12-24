@@ -13,7 +13,6 @@ layout: nil
 2. KorQuAD (한국어 기계 독해 - LG CNS)
 3. 네이버 영화 리뷰 말뭉치
 
-
 ## 2. 한국어 전처리
 ### 1. 순수 텍스트 파일로 변환
    * 토큰화(Tokenization)
@@ -43,28 +42,25 @@ layout: nil
                   * 뛰어쓰기 교정
                2. 구글 센텐스피스 (BPE 기본원리)
 
-
 ## 3. 카운트 기반의 단어 표현(Count based word Representation)
 1. Bag of Words(BoW)
 2. N-gram 언어 모델(N-gram Language Model) 
 
-
 ## 4. 임베딩
-1. 단어 수준 임베딩
+### 1. 단어 수준 임베딩
    1. NPLM
    2. *Word2Vec*
    3. *FastText*
    4. 잠재 의미 분석
    5. *GloVe*
    6. *Swivel*
-2. 문장 수준 임베딩
+### 2. 문장 수준 임베딩
    1. 잠재 의미 분석
    2. Doc2Vec
    3. 잠재 디리클레 할당
    4. *ELMo*
    5. 트랜스포머 네트워크
    6. BERT
-
 
 ## 5. 임베딩 파인 튜닝
 
