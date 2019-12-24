@@ -11,17 +11,13 @@ layout: nil
 
 
 ## 1. 말뭉치 (corpus)
-
 * * * 
-
 1. 한국어 위키백과
 2. KorQuAD (한국어 기계 독해 - LG CNS)
 3. 네이버 영화 리뷰 말뭉치
 
 ## 2. 한국어 전처리
-
 * * *
-
 ### 1. 순수 텍스트 파일로 변환
 * 토큰화(Tokenization)
     * 단어 토큰화(Word Tokenization)
