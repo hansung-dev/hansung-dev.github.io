@@ -7,7 +7,6 @@ type: 'NLP'
 layout: nil
 ---
 
-# NLP Process
 ## 정리요약
 * * *
 1. 말뭉치
