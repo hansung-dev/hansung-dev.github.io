@@ -5,7 +5,7 @@ title: 'NLP Competitions'
 type: 'NLP'
 
 layout: nil
---
+---
 
 ## Kaggle
 * https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews
