@@ -37,11 +37,11 @@ layout: nil
     1. 형태소 분석기
         1. soynlp (파이썬 기반 한국어 자연어 처리 패키지)
         2. 구글 센텐스피스 (BPE 기본원리)
-
+---
 ## 3. 카운트 기반의 단어 표현(Count based word Representation)
 1. Bag of Words(BoW)
 2. N-gram 언어 모델(N-gram Language Model) 
-
+---
 ## 4. 임베딩
 
 ### 1. 단어 수준 임베딩
