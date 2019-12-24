@@ -9,9 +9,11 @@ layout: nil
 
 # NLP Process
 
-* * *
 
 ## 1. 말뭉치 (corpus)
+
+* * * 
+
 1. 한국어 위키백과
 2. KorQuAD (한국어 기계 독해 - LG CNS)
 3. 네이버 영화 리뷰 말뭉치
@@ -44,6 +46,7 @@ layout: nil
         2. 구글 센텐스피스 (BPE 기본원리)
 
 ## 3. 카운트 기반의 단어 표현(Count based word Representation)
+* * *
 1. Bag of Words(BoW)
 2. N-gram 언어 모델(N-gram Language Model) 
 
