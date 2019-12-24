@@ -32,14 +32,16 @@ layout: nil
 1. 토큰화(Tokenization)
     1. 단어 토큰화(Word Tokenization)
     2. 문장 토큰화(Sentence Tokenization)
-2. 정제(Cleaning), 정규화(Normalization)
-3. 어간 추출(Stemming), 표제어 추출(Lemmatization)
-4. 불용어(Stopword)
-5. 정규 표현식(Regular Expression)
-6. ~~정수 인코딩(Integer Encoding)~~
-7. ~~원-핫 인코딩(One-hot encoding)~~
-8. 단어 분리(Subword Segmentation)
-9. 데이터의 분리(Splitting Data)
+2. 정제(Cleaning)
+3. 정규화(Normalization)
+4. 어간 추출(Stemming)
+5. 표제어 추출(Lemmatization)
+6. 불용어(Stopword)
+7. 정규 표현식(Regular Expression)
+8. ~~정수 인코딩(Integer Encoding)~~
+9. ~~원-핫 인코딩(One-hot encoding)~~
+10. 단어 분리(Subword Segmentation)
+11. 데이터의 분리(Splitting Data)
 
 ### 2. 형태소 분석 방법
 1. 지도학습
