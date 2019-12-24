@@ -14,6 +14,7 @@ layout: nil
 3. 네이버 영화 리뷰 말뭉치
 
 ## 2. 한국어 전처리
+
 ### 1. 순수 텍스트 파일로 변환
 * 토큰화(Tokenization)
     * 단어 토큰화(Word Tokenization)
@@ -26,6 +27,7 @@ layout: nil
 * ~~원-핫 인코딩(One-hot encoding)~~
 * 단어 분리(Subword Segmentation)
 * 데이터의 분리(Splitting Data)
+
 ### 2. 형태소 분석 방법
 1. 지도학습
     1. 형태소 분석기
@@ -47,6 +49,7 @@ layout: nil
 2. N-gram 언어 모델(N-gram Language Model) 
 
 ## 4. 임베딩
+
 ### 1. 단어 수준 임베딩
    1. NPLM
    2. *Word2Vec*
@@ -54,6 +57,7 @@ layout: nil
    4. 잠재 의미 분석
    5. *GloVe*
    6. *Swivel*
+
 ### 2. 문장 수준 임베딩
    1. 잠재 의미 분석
    2. Doc2Vec
