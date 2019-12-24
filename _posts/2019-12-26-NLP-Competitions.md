@@ -15,3 +15,4 @@ layout: nil
 ## 참고
 * https://github.com/corazzon/KaggleStruggle/blob/master/word2vec-nlp-tutorial/tutorial-part-1.ipynb
 * 내용입력
+* 내용입력
