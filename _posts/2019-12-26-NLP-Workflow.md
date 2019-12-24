@@ -15,7 +15,7 @@ layout: nil
 
 
 ## 2. 한국어 전처리
-1. 순수 텍스트 파일로 변환
+### 1. 순수 텍스트 파일로 변환
    * 토큰화(Tokenization)
        * 단어 토큰화(Word Tokenization)
        * 문장 토큰화(Sentence Tokenization)
@@ -27,7 +27,7 @@ layout: nil
    * ~~원-핫 인코딩(One-hot encoding)~~
    * 단어 분리(Subword Segmentation)
    * 데이터의 분리(Splitting Data)
-2. 형태소 분석 방법
+### 2. 형태소 분석 방법
    1. 지도학습
        1. 형태소 분석기
            1. KoNLPy (오픈소스 형태기 분석기)
