@@ -70,7 +70,7 @@ layout: nil
 3. 잠재 디리클레 할당
 4. *ELMo*
 5. 트랜스포머 네트워크
-6. BERT
+6. BERT, KoBERT
 
 ## 5. 임베딩 파인 튜닝
 * * *
