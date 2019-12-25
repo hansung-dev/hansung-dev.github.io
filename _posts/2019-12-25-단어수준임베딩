@@ -62,4 +62,5 @@ layout: nil
 
 ## Swival (Submatrix-Wise Vector Embedding Learner)
 
-- 
+- 2016년 구글 연구팀이 발표한 행렬 분해 기반의 단어 임베딩 기법이다.
+- ...
