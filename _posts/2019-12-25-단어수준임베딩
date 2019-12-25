@@ -1,0 +1,12 @@
+---
+category: NLP
+path: '/stuff/:id'
+title: '단어 수준 임베딩'
+type: 'NLP'
+
+layout: nil
+---
+
+# 단어 수준 임베딩
+
+## NPLM (Neural Probabilistic Language Model)
