@@ -25,5 +25,6 @@ layout: nil
 - https://wikidocs.net/31698
 
 ***
+
 ## 참고 캐글 대회
 - Bag of Words Meets Bags of Popcorn : https://www.kaggle.com/c/word2vec-nlp-tutorial
