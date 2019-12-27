@@ -28,6 +28,5 @@ MultinomialNB()
 [3]
 ```
 
-
 > MultinomialNB : http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
 > BernoulliNB : https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.BernoulliNB.html
