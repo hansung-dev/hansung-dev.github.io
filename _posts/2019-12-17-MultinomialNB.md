@@ -15,7 +15,7 @@ Read more in the User Guide.
 
 > class sklearn.naive_bayes.MultinomialNB(alpha=1.0, fit_prior=True, class_prior=None)
 
-'''python
+```python
 >>> import numpy as np
 >>> rng = np.random.RandomState(1)
 >>> X = rng.randint(5, size=(6, 100))
@@ -26,7 +26,8 @@ Read more in the User Guide.
 MultinomialNB()
 >>> print(clf.predict(X[2:3]))
 [3]
-'''
+```
+
 
 > MultinomialNB : http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html
 > BernoulliNB : https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.BernoulliNB.html
