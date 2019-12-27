@@ -1,13 +1,12 @@
 ---
-category: NLP
-path: '/stuff/:id'
-title: '카운트 기반의 단어 표현(Count based word Representation)'
-type: 'Bow,TF-IDF'
-
-layout: nil
+layout: post
+title: "카운트 기반의 단어 표현(Count based word Representation)"
+date: 2019-12-26
+categories: NLP
+tags: [Bow, TF-IDF]
+image:
 ---
 
-## 카운트 기반의 단어 표현(Count based word Representation)
 1. Bow (Bag of Words) : 조한성 님
 2. TF-IDF(Term Frequency-Inverse Document Frequency) : 조한성 님
 

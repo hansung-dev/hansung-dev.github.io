@@ -1,10 +1,10 @@
 ---
-category: NLP
-path: '/stuff/:id'
-title: 'NLP Process'
-type: 'NLP'
-
-layout: nil
+layout: post
+title: "NLP Process"
+date: 2019-12-24
+categories: NLP
+tags: [NLP]
+image:
 ---
 
 ## 정리요약
@@ -21,7 +21,7 @@ layout: nil
 
 
 ## 1. 말뭉치 (corpus)
-* * * 
+* * *
 1. 한국어 위키백과
 2. KorQuAD (한국어 기계 독해 - LG CNS)
 3. 네이버 영화 리뷰 말뭉치
@@ -54,10 +54,10 @@ layout: nil
 ## 3. 카운트 기반의 단어 표현(Count based word Representation)
 * * *
 1. Bag of Words(BoW)
-2. N-gram 언어 모델(N-gram Language Model) 
+2. N-gram 언어 모델(N-gram Language Model)
 
 ## 4. 임베딩
-* * * 
+* * *
 ### 1. 단어 수준 임베딩
 1. NPLM
 2. *Word2Vec*
