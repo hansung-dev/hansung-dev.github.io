@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MultinomialNB : Naive Bayes classifier for multinomial models"
+title: "sklearn.naive_bayes.MultinomialNB"
 date: 2019-12-27
 categories: NLP
 tags: [sklearn]
