@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "카운트 기반의 단어 표현(Count based word Representation)"
+title: "Count based word Representation"
 date: 2019-12-26
 categories: NLP
 tags: [Bow, TF-IDF]
