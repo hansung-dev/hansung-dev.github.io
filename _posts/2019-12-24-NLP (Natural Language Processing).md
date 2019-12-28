@@ -69,6 +69,7 @@ image:
   - 기타
     - 자연어 처리에서 전처리, 더 정확히는 정규화의 지향점은 언제나 갖고 있는 코퍼스로부터 복잡성을 줄이는 일입니다.
 4. 불용어(Stopword)
+  - 토큰화 후에 조사, 접속사 등을 제거
 5. 정규 표현식(Regular Expression)
 6. ~~정수 인코딩(Integer Encoding)~~
 7. ~~원-핫 인코딩(One-hot encoding)~~
@@ -136,3 +137,7 @@ image:
 - 한글 형태소 분석기 비교 : http://www.engear.net/wp/%ED%95%9C%EA%B8%80-%ED%98%95%ED%83%9C%EC%86%8C-%EB%B6%84%EC%84%9D%EA%B8%B0-%EB%B9%84%EA%B5%90/
 - khaiii : https://github.com/kakao/khaiii
 - Korean POS tags comparison chart : https://docs.google.com/spreadsheets/d/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0
+- 한국어/불규칙 활용 : https://namu.wiki/w/한국어/불규칙%20활용
+- Korean Stopwords : https://www.ranks.nl/stopwords/korean
+- 한국어 불용어 리스트 100개 : https://bab2min.tistory.com/544
+-
