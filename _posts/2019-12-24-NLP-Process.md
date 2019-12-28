@@ -64,6 +64,9 @@ image:
 1. Bag of Words(BoW)
   - DictVectorizer : 각 단어의 수를 세어놓은 사전에서 BOW 벡터를 만든다.
   - CountVectorizer : 문서 집합에서 단어 토큰을 생성하고 각 단어의 수를 세어 BOW 인코딩한 벡터를 만든다.
+    1. 문서를 토큰 리스트로 변환한다.
+    2. 각 문서에서 토큰의 출현 빈도를 센다.
+    3. 각 문서를 BOW 인코딩 벡터로 변환한다.
   - HashingVectorizer : 해시 함수(hash function)을 사용하여 적은 메모리와 빠른 속도로 BOW 벡터를 만든다.
 2. TF-IDF(Term Frequency – Inverse Document Frequency)
   - TfidfVectorizer : CountVectorizer와 비슷하지만 TF-IDF 방식으로 단어의 가중치를 조정한 BOW 벡터를 만든다.
@@ -95,4 +98,4 @@ image:
 ***
 - NLTK 자연어 처리 패키지 : https://datascienceschool.net/view-notebook/8895b16a141749a9bb381007d52721c1/
 - KoNLPy 한국어 처리 패키지 : https://datascienceschool.net/view-notebook/a0237ff8f13a454c96072f868c01bc30/
-- Scikit-Learn의 문서 전처리 기능¶ : https://datascienceschool.net/view-notebook/3e7aadbf88ed4f0d87a76f9ddc925d69/
+- Scikit-Learn의 문서 전처리 기능 : https://datascienceschool.net/view-notebook/3e7aadbf88ed4f0d87a76f9ddc925d69/
