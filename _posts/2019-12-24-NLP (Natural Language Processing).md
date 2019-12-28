@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NLP Process"
+title: "NLP (Natural Language Processing)"
 date: 2019-12-24
 categories: NLP
 tags: [NLP]
@@ -31,17 +31,49 @@ image:
 ### 1. 순수 텍스트 파일로 변환
 1. 토큰화(Tokenization)
     1. 단어 토큰화(Word Tokenization)
+      - nltk.tokenize : word_tokenize, WordPunctTokenizer, TreebankWordTokenizer
+      - KoNLPY
+      - tensorflow.keras.preprocessing.text : text_to_word_sequence
     2. 문장 토큰화(Sentence Tokenization)
-2. 정제(Cleaning)
-3. 정규화(Normalization)
-4. 어간 추출(Stemming)
-5. 표제어 추출(Lemmatization)
-6. 불용어(Stopword)
-7. 정규 표현식(Regular Expression)
-8. ~~정수 인코딩(Integer Encoding)~~
-9. ~~원-핫 인코딩(One-hot encoding)~~
-10. 단어 분리(Subword Segmentation)
-11. 데이터의 분리(Splitting Data)
+      - nltk.tokenize : sent_tokenize
+      - KSS(Korean Sentence Splitter
+      - OpenNLP
+      - 스탠포드 CoreNLP
+      - splitta
+      - LingPipe
+    3. 기타
+      - 이진 분류기 구현에서 약어 사전(abbreviation dictionary)는 유용 : https://public.oed.com/how-to-use-the-oed/abbreviations/
+      - 형태소 토큰화를 수행
+      - 품사 태깅(Part-of-speech tagging)
+      - KoNLPy("코엔엘파이") : Okt(Open Korea Text), 메캅(Mecab), 코모란(Komoran), 한나눔(Hannanum), 꼬꼬마(Kkma)
+      - Okt(Open Korea Text)
+        - 1) morphs : 형태소 추출
+        - 2) pos : 품사 태깅(Part-of-speech tagging)
+        - 3) nouns : 명사 추출
+      - 문장 분석 품질 비교
+        - 띄어쓰기가 없는 문장
+        - 자소 분리 및 오탈자가 포함된 문장
+        - 긴 문장
+2. 정제(Cleaning) : 갖고 있는 코퍼스로부터 노이즈 데이터를 제거한다.
+  - 규칙에 기반한 표기가 다른 단어들의 통합
+  - 대,소문자 통합
+  - 불필요한 단어의 제거(Removing Unnecessary Words)
+    - 등장 빈도가 적은 단어(Removing Rare words)
+    - 길이가 짧은 단어(Removing words with very a short length)
+  - 정규 표현식(Regular Expression)
+  - 기타
+    - 영어 단어의 평균 길이는 6~7 정도이며, 한국어 단어의 평균 길이는 2~3 정도로 추정
+3. 정규화(Normalization) : 표현 방법이 다른 단어들을 통합시켜서 같은 단어로 만들어준다.
+  - 어간 추출(Stemming)
+  - 표제어 추출(Lemmatization)
+  - 기타
+    - 자연어 처리에서 전처리, 더 정확히는 정규화의 지향점은 언제나 갖고 있는 코퍼스로부터 복잡성을 줄이는 일입니다.
+4. 불용어(Stopword)
+5. 정규 표현식(Regular Expression)
+6. ~~정수 인코딩(Integer Encoding)~~
+7. ~~원-핫 인코딩(One-hot encoding)~~
+8. 단어 분리(Subword Segmentation)
+9. 데이터의 분리(Splitting Data)
 
 ### 2. 형태소 분석 방법
 1. 지도학습
@@ -99,3 +131,8 @@ image:
 - NLTK 자연어 처리 패키지 : https://datascienceschool.net/view-notebook/8895b16a141749a9bb381007d52721c1/
 - KoNLPy 한국어 처리 패키지 : https://datascienceschool.net/view-notebook/a0237ff8f13a454c96072f868c01bc30/
 - Scikit-Learn의 문서 전처리 기능 : https://datascienceschool.net/view-notebook/3e7aadbf88ed4f0d87a76f9ddc925d69/
+- 한국어 형태소 분석기 성능 비교 : https://iostream.tistory.com/144
+- 품사 태깅 클래스 간 비교 : http://konlpy.org/ko/latest/morph/#comparison-between-pos-tagging-classes
+- 한글 형태소 분석기 비교 : http://www.engear.net/wp/%ED%95%9C%EA%B8%80-%ED%98%95%ED%83%9C%EC%86%8C-%EB%B6%84%EC%84%9D%EA%B8%B0-%EB%B9%84%EA%B5%90/
+- khaiii : https://github.com/kakao/khaiii
+- Korean POS tags comparison chart : https://docs.google.com/spreadsheets/d/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0
