@@ -74,6 +74,9 @@ image:
 6. ~~정수 인코딩(Integer Encoding)~~
 7. ~~원-핫 인코딩(One-hot encoding)~~
 8. 단어 분리(Subword Segmentation)
+  - OOV 문제를 해결하는 방법인 BPE(Byte Pair Encoding)과 WPM(Word Piece Model)에 대해서 학습
+  - BPE(Byte Pair Encoding)
+  - WPM(Word Piece Model)
 9. 데이터의 분리(Splitting Data)
 
 ### 2. 형태소 분석 방법
