@@ -127,7 +127,7 @@ image:
 
 ## 5. 임베딩 파인 튜닝
 ***
-1. 내용입력
+1. 파인 튜닝이란 프리트레인 이후 추가 학습을 시행해 임베딩을 다운스트림 태스크에 맞게 업데이트하는 것을 의미한다.
 
 
 ## 참고.
@@ -144,3 +144,7 @@ image:
 - Korean Stopwords : https://www.ranks.nl/stopwords/korean
 - 한국어 불용어 리스트 100개 : https://bab2min.tistory.com/544
 -
+
+## 2019-12-30
+- 한글 NLP with Python : http://incredible.ai/nlp/2016/12/28/NLP/
+- KoNLP 0.0.8 documentation : http://konltk.org/en/latest/
